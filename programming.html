@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <style>
+
+    *{
+      box-sizing: border-box;
+    }
+    body{
+      font-family: Arial;
+      padding: 10px;
+      background: #f1f1f1;
+
+    }
+
+    .header {
+      padding: 30px;
+      text-align: center;
+      background: white;
+
+    }
+
+    .header h1 {
+      font-size: 50px;
+
+    }
+    .topnav {
+      overflow: hidden;
+      background-color: #333;
+    }
+    .topnav a {
+      float: left;
+      display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    }
+
+    .topnav a:hover {
+      background-color: #ddd;
+      color: black;
+    }
+    .leftcolumn {
+      float: left;
+      width: 75%;
+    }
+    .rightcolumn {
+      float: left;
+      width: 25%;
+      background-color: #f1f1f1;
+      padding-left: 20px;
+    }
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top:20px;
+}
+.row:after {
+  content:"";
+  display: table;
+  clear: both;
+}
+
+.footer{
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+
+}
+
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {
+    width: 100%;
+    padding: 0;
+  }
+}
+@media screen and (max-width:400px) {
+  .topnav a {
+    float: none;
+    width: 100%
+  }
+}
+
+  </style>
+
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <div class= 'header'>
+      <h1> 22061053 박연수 </h1>
+      <p> Resize the browser window to see the effect.</p>
+      </div>
+
+      <div class='topnav'>
+        <a href='design.html'>디자인</a>
+        <a href='programming.html'>프로그래밍</a>
+        <a href='li.html'>일러스트</a>
+        <a href='me.html' style="float: right">개인작업</a>
+        </div>
+
+        <div class="row">
+          <div class="leftcolumn">
+    
+                <div class="card">
+                  <h2>프로그래밍 </h2>
+                  <h5> Sep 2, 2020</h5>
+                  <div class="fakeimg" style="height:200px;"> <img src=img/programming.png height="130px"></div>
+                  <p> HTML과 CSS</p>
+                  <p>2학기 수업으로 진행한 웹사이트 개설</p>
+
+
+                </div>
+            </div>
+<div class="rightcolumn">
+  <div class="card">
+    <h2> 소개</h2>
+    <div class="fakeimg" style="height:100px;" > Image</div>
+    <p> Park yeon su
+
+    <Br> 1999. 06. 21 </p>
+    </div>
+    <div class="card">
+      <h3>Popular Post</h3>
+      <div class="fakeimg"> <p> <img src=img/POP.png height="130px"></p> </div>
+        <div class="fakeimg"> <p> <img src=img/POP2.jpg height="130px"></p> </div>
+        </div>
+
+      <div class="card">
+        <h3> 새소식  </h3>
+        <p> 2020.12.14 디자인 메뉴창 신규 개설 </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer">
+    <h2>Contact
+      E-mail: monggsu@naver.com</h2>
+  </div>
+
+</body>
+</html>
